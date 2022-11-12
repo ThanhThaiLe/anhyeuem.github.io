@@ -23,12 +23,8 @@
             padding: 0;
 
             margin: 0;
+            background-color: #000;
 
-            /* background: #000; */
-            animation: colorBackground 20s infinite;
-            -webkit-animation: colorBackground 20s infinite;
-            -moz-animation: colorBackground 20s infinite;
-            -o-animation: colorBackground 20s infinite
         }
 
         canvas {
@@ -43,101 +39,90 @@
 
         @keyframes colorBackground {
             0% {
-                background-image: url("background.jpg");
-                background-size: 100% 100%;
+                background-image: url("IMG_2768.JPG");
                 background-repeat: no-repeat;
+                background-size: contain;
+                margin-left: 10px;
                 color: #fbcf61
             }
 
-            20% {
-                background-image: url("background_desktop.jpg");
-                background-size: 100% 100%;
+            30% {
+                background-image: url("IMG_2768.JPG");
                 background-repeat: no-repeat;
-                background-color: #6bd57e;
+                background-size: contain;
+
                 color: #6bd57e
             }
 
-            40% {
-                background-color: #ff6f6f;
+            60% {
+                background-image: url("IMG_2768.JPG");
+                background-repeat: no-repeat;
+                background-size: contain;
                 color: #ff6f6f
             }
-
-            60% {
-                background-color: #57cff4;
-                color: #57cff4
-            }
-
-            80% {
-                background-color: #0ed4c8;
-                color: #0ed4c8
-            }
-
             100% {
-                background-color: #fbcf61;
+                background-image: url("IMG_2768.JPG");
+                background-repeat: no-repeat;
+                background-size: contain;
                 color: #fbcf61
             }
         }
 
         @-webkit-keyframes colorBackground {
             0% {
-                background-color: #fbcf61;
+                background-image: url("IMG_2768.JPG");
+                background-repeat: no-repeat;
+                background-size: contain;
                 color: #fbcf61
             }
 
-            20% {
-                background-color: #6bd57e;
+            30% {
+                background-image: url("IMG_2768.JPG");
+                background-repeat: no-repeat;
+                background-size: contain;
                 color: #6bd57e
             }
 
-            40% {
-                background-color: #ff6f6f;
+            60% {
+                background-image: url("IMG_2768.JPG");
+                background-repeat: no-repeat;
+                background-size: contain;
                 color: #ff6f6f
             }
 
-            60% {
-                background-color: #57cff4;
-                color: #57cff4
-            }
-
-            80% {
-                background-color: #0ed4c8;
-                color: #0ed4c8
-            }
-
             100% {
-                background-color: #fbcf61;
+                background-image: url("IMG_2768.JPG");
+                background-size: contain;
+                background-repeat: no-repeat;
                 color: #fbcf61
             }
         }
 
         @-moz-keyframes colorBackground {
             0% {
-                background-color: #fbcf61;
+                background-image: url("IMG_2768.JPG");
+                background-size: contain;
+                background-repeat: no-repeat;
                 color: #fbcf61
             }
 
-            20% {
-                background-color: #6bd57e;
+            30% {
+                background-image: url("IMG_2768.JPG");
+                background-repeat: no-repeat;
+                background-size: contain;
                 color: #6bd57e
             }
 
-            40% {
-                background-color: #ff6f6f;
+            60% {
+                background-image: url("IMG_2768.JPG");
+                background-repeat: no-repeat;
+                background-size: contain;
                 color: #ff6f6f
             }
-
-            60% {
-                background-color: #57cff4;
-                color: #57cff4
-            }
-
-            80% {
-                background-color: #0ed4c8;
-                color: #0ed4c8
-            }
-
             100% {
-                background-color: #fbcf61;
+                background-image: url("IMG_2768.JPG");
+                background-size: contain;
+                background-repeat: no-repeat;
                 color: #fbcf61
             }
         }
@@ -147,7 +132,6 @@
 
 
 <BODY>
-
     <canvas id="pinkboard"></canvas>
 
     <script>
@@ -523,7 +507,7 @@
 
                 // create the fill
 
-                context.fillStyle = 'rgba(192, 10, 41, 0.8)';
+                context.fillStyle = '#009900';
                 // context.fillStyle = '#ffffff';
 
                 context.fill();
